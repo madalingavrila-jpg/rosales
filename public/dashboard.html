@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rosales — Sales Dashboard</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">R</div>
+        <div>
+          <h1>Rosales</h1>
+          <small>Sales Dashboard · Bolt RO</small>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span class="sync-meta" id="sync-meta">—</span>
+        <span class="user-chip" id="user-chip">—</span>
+        <button class="btn btn-ghost" id="logout-btn" type="button">Ieșire</button>
+      </div>
+    </header>
+
+    <nav class="tab-bar" aria-label="Tab-uri dashboard">
+      <button class="tab active" data-tab="overview" type="button">Prezentare generală</button>
+      <button class="tab disabled" data-tab="pipeline" type="button" title="În curând">Pipeline</button>
+      <button class="tab disabled" data-tab="accounts" type="button" title="În curând">Conturi</button>
+      <button class="tab disabled" data-tab="commission" type="button" title="În curând">Comision</button>
+    </nav>
+
+    <main class="app-main">
+      <section id="tab-overview">
+        <p class="period-label" id="period-label">—</p>
+
+        <section class="activations-panel" id="activations-panel" aria-label="KPI activări">
+          <div class="activations-total-card" id="activations-total"></div>
+          <div class="activations-teams" id="activations-teams"></div>
+        </section>
+
+        <div class="kpi-grid kpi-grid-secondary" id="kpi-grid"></div>
+
+        <div class="panel-grid">
+          <section class="panel">
+            <h2>Distribuție stadii (lună curentă)</h2>
+            <div class="chart-wrap">
+              <div class="bar-chart" id="stage-chart"></div>
+            </div>
+          </section>
+          <section class="panel">
+            <h2>Trend zilnic (ultimele 14 zile)</h2>
+            <div class="chart-wrap">
+              <div class="trend-chart" id="trend-chart"></div>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel">
+          <h2>Performanță agenți</h2>
+          <div class="table-wrap">
+            <table class="data-table" id="rep-table">
+              <thead>
+                <tr>
+                  <th>Agent</th>
+                  <th>Oportunități</th>
+                  <th>Closed Won</th>
+                  <th>Closed Lost</th>
+                  <th>Activated</th>
+                  <th>Win rate</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="tab-placeholder" class="placeholder-tab">
+        <p>Tab în dezvoltare. Prima versiune include doar <strong>Prezentare generală</strong>.</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="loading-overlay" id="loading">Se încarcă datele…</div>
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>

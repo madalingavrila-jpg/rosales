@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rosales — Autentificare</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body class="login-page">
+  <main class="login-card">
+    <div class="login-logo" aria-hidden="true">R</div>
+    <h1>Rosales</h1>
+    <p>Dashboard vânzări Bolt RO. Introdu parola echipei sau parola ta de agent.</p>
+    <div id="error" class="error-banner" role="alert"></div>
+    <form id="login-form">
+      <div class="field">
+        <label for="password">Parolă</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required autofocus>
+      </div>
+      <button class="btn btn-primary" type="submit">Intră în dashboard</button>
+    </form>
+  </main>
+  <script src="/js/auth.js"></script>
+</body>
+</html>

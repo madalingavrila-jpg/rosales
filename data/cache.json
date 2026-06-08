@@ -1,0 +1,611 @@
+{
+  "syncedAt": "2026-06-08T17:36:20.481Z",
+  "sources": [
+    "salesforce-mcp"
+  ],
+  "periodLabel": "Luna curentă (Salesforce Opportunity)",
+  "overview": {
+    "opportunitiesToday": 28,
+    "closedWonMonth": 206,
+    "closedLostMonth": 48,
+    "activatedMonth": 54,
+    "activePipeline": 421,
+    "totalOpportunitiesMonth": 2303
+  },
+  "activationsKpi": {
+    "totalActual": 52,
+    "totalTarget": 355,
+    "progressPct": 14.6,
+    "teams": {
+      "density": {
+        "team": "density",
+        "label": "Density",
+        "actual": 1,
+        "target": 275,
+        "progressPct": 0.4,
+        "targetPerRep": 25,
+        "reps": [
+          {
+            "name": "Catalin Corbeanu",
+            "email": "catalin.corbeanu@aceolution.com",
+            "team": "density",
+            "actual": 1,
+            "target": 25,
+            "progressPct": 4
+          },
+          {
+            "name": "Alexandra Laeș",
+            "email": "alexandra.laes@bolt.eu",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Andrei Giarmati",
+            "email": "andrei.giarmati@aceolution.com",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Bogdan Nerpii",
+            "email": "bogdan.nerpii@aceolution.com",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Cezar-Mihai Voicu",
+            "email": "cezar.voicu@bolt.eu",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Dan Pesceanu",
+            "email": "dan.pesceanu@aceolution.com",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Elena Popa",
+            "email": "elena.popa@bolt.eu",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Ionuț-Daniel Toader",
+            "email": "ionut.toader@bolt.eu",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Nikolai Podvolotski",
+            "email": "nikolai.podvolotski@bolt.eu",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Petru Avornicesei",
+            "email": "petru.avornicesei@aceolution.com",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          },
+          {
+            "name": "Razvan Save",
+            "email": "razvan.save@aceolution.com",
+            "team": "density",
+            "actual": 0,
+            "target": 25,
+            "progressPct": 0
+          }
+        ]
+      },
+      "complex": {
+        "team": "complex",
+        "label": "Complex",
+        "actual": 51,
+        "target": 80,
+        "progressPct": 63.8,
+        "targetPerRep": 8,
+        "reps": [
+          {
+            "name": "Daniel-Alexandru Boboc",
+            "email": "alexandru.boboc@bolt.eu",
+            "team": "complex",
+            "actual": 14,
+            "target": 8,
+            "progressPct": 175
+          },
+          {
+            "name": "Ciprian Teodorescu",
+            "email": "ciprian.teodorescu@bolt.eu",
+            "team": "complex",
+            "actual": 9,
+            "target": 8,
+            "progressPct": 112.5
+          },
+          {
+            "name": "Silviu-Mihnea Voicu",
+            "email": "silviu.voicu@bolt.eu",
+            "team": "complex",
+            "actual": 8,
+            "target": 8,
+            "progressPct": 100
+          },
+          {
+            "name": "Corneliu-Ștefan Radu",
+            "email": "corneliu.radu@bolt.eu",
+            "team": "complex",
+            "actual": 5,
+            "target": 8,
+            "progressPct": 62.5
+          },
+          {
+            "name": "Daniel-Marian Toltică",
+            "email": "daniel.toltica@bolt.eu",
+            "team": "complex",
+            "actual": 5,
+            "target": 8,
+            "progressPct": 62.5
+          },
+          {
+            "name": "Eusebiu Hanganu",
+            "email": "eusebiu.hanganu@bolt.eu",
+            "team": "complex",
+            "actual": 4,
+            "target": 8,
+            "progressPct": 50
+          },
+          {
+            "name": "Andrei-Georgian Pătru",
+            "email": "andrei.patru@bolt.eu",
+            "team": "complex",
+            "actual": 3,
+            "target": 8,
+            "progressPct": 37.5
+          },
+          {
+            "name": "Borcaeas Georgian",
+            "email": "georgian.borcaeas@bolt.eu",
+            "team": "complex",
+            "actual": 2,
+            "target": 8,
+            "progressPct": 25
+          },
+          {
+            "name": "Ionut-Mădălin Gavrilă",
+            "email": "madalin.gavrila@bolt.eu",
+            "team": "complex",
+            "actual": 1,
+            "target": 8,
+            "progressPct": 12.5
+          },
+          {
+            "name": "Ana-Maria Preda",
+            "email": "ana.preda@bolt.eu",
+            "team": "complex",
+            "actual": 0,
+            "target": 8,
+            "progressPct": 0
+          }
+        ]
+      }
+    }
+  },
+  "stageBreakdown": [
+    {
+      "stage": "Closed Lost",
+      "count": 48
+    },
+    {
+      "stage": "Closed Won",
+      "count": 206
+    },
+    {
+      "stage": "Negotiations",
+      "count": 9
+    },
+    {
+      "stage": "6. Verbal Yes/Contract",
+      "count": 2
+    },
+    {
+      "stage": "Contacting DCM",
+      "count": 2
+    },
+    {
+      "stage": "Onboarding",
+      "count": 25
+    },
+    {
+      "stage": "Activated",
+      "count": 54
+    },
+    {
+      "stage": "1. In Progress",
+      "count": 23
+    },
+    {
+      "stage": "Ready to Activate",
+      "count": 41
+    },
+    {
+      "stage": "Contract sent",
+      "count": 63
+    },
+    {
+      "stage": "1. Actively Working",
+      "count": 23
+    },
+    {
+      "stage": "4. Followup Required",
+      "count": 74
+    },
+    {
+      "stage": "Onboarding Checklist",
+      "count": 1
+    },
+    {
+      "stage": "First Pitch",
+      "count": 1
+    },
+    {
+      "stage": "3. Meeting Booked",
+      "count": 6
+    },
+    {
+      "stage": "0. Not Working",
+      "count": 1628
+    },
+    {
+      "stage": "2. Attempted Contacted - DM Not Reached",
+      "count": 26
+    },
+    {
+      "stage": "New Opportunity",
+      "count": 71
+    }
+  ],
+  "repMetrics": [
+    {
+      "name": "Nikolai Podvolotski",
+      "email": "nikolai.podvolotski@bolt.eu",
+      "opportunitiesMonth": 861,
+      "closedWon": 5,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Bogdan Nerpii",
+      "email": "bogdan.nerpii@aceolution.com",
+      "opportunitiesMonth": 172,
+      "closedWon": 32,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Razvan Save",
+      "email": "razvan.save@aceolution.com",
+      "opportunitiesMonth": 168,
+      "closedWon": 31,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Petru Avornicesei",
+      "email": "petru.avornicesei@aceolution.com",
+      "opportunitiesMonth": 152,
+      "closedWon": 62,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Ionuț-Daniel Toader",
+      "email": "ionut.toader@bolt.eu",
+      "opportunitiesMonth": 65,
+      "closedWon": 0,
+      "closedLost": 1,
+      "activated": 0,
+      "winRate": 0
+    },
+    {
+      "name": "Ciprian Teodorescu",
+      "email": "ciprian.teodorescu@bolt.eu",
+      "opportunitiesMonth": 58,
+      "closedWon": 9,
+      "closedLost": 10,
+      "activated": 9,
+      "winRate": 0.47368421052631576
+    },
+    {
+      "name": "Răzvan-Alexandru Necula",
+      "email": "razvan.necula@bolt.eu",
+      "opportunitiesMonth": 51,
+      "closedWon": 1,
+      "closedLost": 1,
+      "activated": 0,
+      "winRate": 0.5
+    },
+    {
+      "name": "Alexandra Laeș",
+      "email": "alexandra.laes@bolt.eu",
+      "opportunitiesMonth": 49,
+      "closedWon": 8,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Andrei-Antonio Pădeanu",
+      "email": "andrei.padeanu@bolt.eu",
+      "opportunitiesMonth": 44,
+      "closedWon": 1,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Vlad-Gabriel Ene",
+      "email": "vlad-gabriel.ene@bolt.eu",
+      "opportunitiesMonth": 44,
+      "closedWon": 1,
+      "closedLost": 1,
+      "activated": 0,
+      "winRate": 0.5
+    },
+    {
+      "name": "Daniel-Marian Toltică",
+      "email": "daniel.toltica@bolt.eu",
+      "opportunitiesMonth": 43,
+      "closedWon": 4,
+      "closedLost": 0,
+      "activated": 5,
+      "winRate": 1
+    },
+    {
+      "name": "Eusebiu Hanganu",
+      "email": "eusebiu.hanganu@bolt.eu",
+      "opportunitiesMonth": 38,
+      "closedWon": 4,
+      "closedLost": 1,
+      "activated": 4,
+      "winRate": 0.8
+    },
+    {
+      "name": "Vadim Grecu",
+      "email": "vadim.grecu@bolt.eu",
+      "opportunitiesMonth": 36,
+      "closedWon": 0,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 0
+    },
+    {
+      "name": "Cezar-Mihai Voicu",
+      "email": "cezar.voicu@bolt.eu",
+      "opportunitiesMonth": 35,
+      "closedWon": 2,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Mircea-Cristian Dragnea",
+      "email": "cristianmircea.dragnea@bolt.eu",
+      "opportunitiesMonth": 34,
+      "closedWon": 0,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 0
+    },
+    {
+      "name": "Borcaeas Georgian",
+      "email": "georgian.borcaeas@bolt.eu",
+      "opportunitiesMonth": 33,
+      "closedWon": 2,
+      "closedLost": 3,
+      "activated": 2,
+      "winRate": 0.4
+    },
+    {
+      "name": "Elena Popa",
+      "email": "elena.popa@bolt.eu",
+      "opportunitiesMonth": 31,
+      "closedWon": 3,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Daniel-Alexandru Boboc",
+      "email": "alexandru.boboc@bolt.eu",
+      "opportunitiesMonth": 30,
+      "closedWon": 5,
+      "closedLost": 0,
+      "activated": 14,
+      "winRate": 1
+    },
+    {
+      "name": "Dan Pesceanu",
+      "email": "dan.pesceanu@aceolution.com",
+      "opportunitiesMonth": 28,
+      "closedWon": 1,
+      "closedLost": 5,
+      "activated": 0,
+      "winRate": 0.16666666666666666
+    },
+    {
+      "name": "Silviu-Mihnea Voicu",
+      "email": "silviu.voicu@bolt.eu",
+      "opportunitiesMonth": 28,
+      "closedWon": 8,
+      "closedLost": 2,
+      "activated": 8,
+      "winRate": 0.8
+    },
+    {
+      "name": "Catalin Corbeanu",
+      "email": "catalin.corbeanu@aceolution.com",
+      "opportunitiesMonth": 26,
+      "closedWon": 2,
+      "closedLost": 4,
+      "activated": 1,
+      "winRate": 0.3333333333333333
+    },
+    {
+      "name": "Corneliu-Ștefan Radu",
+      "email": "corneliu.radu@bolt.eu",
+      "opportunitiesMonth": 23,
+      "closedWon": 5,
+      "closedLost": 2,
+      "activated": 5,
+      "winRate": 0.7142857142857143
+    },
+    {
+      "name": "Andreea Ştefănescu",
+      "email": "andreea.stefanescu@bolt.eu",
+      "opportunitiesMonth": 21,
+      "closedWon": 2,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Andrei-Vasile Simion",
+      "email": "andrei.simion@bolt.eu",
+      "opportunitiesMonth": 21,
+      "closedWon": 2,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Andrei Giarmati",
+      "email": "andrei.giarmati@aceolution.com",
+      "opportunitiesMonth": 19,
+      "closedWon": 1,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Ana-Maria Preda",
+      "email": "ana.preda@bolt.eu",
+      "opportunitiesMonth": 18,
+      "closedWon": 3,
+      "closedLost": 5,
+      "activated": 0,
+      "winRate": 0.375
+    },
+    {
+      "name": "Paul-Daniel Rîngheanu",
+      "email": "paul.ringheanu@bolt.eu",
+      "opportunitiesMonth": 15,
+      "closedWon": 1,
+      "closedLost": 0,
+      "activated": 1,
+      "winRate": 1
+    },
+    {
+      "name": "Mihai Ilincuța",
+      "email": "mihai.ilincuta@bolt.eu",
+      "opportunitiesMonth": 14,
+      "closedWon": 0,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 0
+    },
+    {
+      "name": "Oroles Roșu",
+      "email": "oroles.rosu@bolt.eu",
+      "opportunitiesMonth": 13,
+      "closedWon": 1,
+      "closedLost": 0,
+      "activated": 1,
+      "winRate": 1
+    },
+    {
+      "name": "Adrian-Cătălin Munteanu",
+      "email": "adriancatalin.munteanu@bolt.eu",
+      "opportunitiesMonth": 11,
+      "closedWon": 0,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 0
+    },
+    {
+      "name": "Andrei-Sebastian Caba",
+      "email": "sebastian.caba@bolt.eu",
+      "opportunitiesMonth": 8,
+      "closedWon": 6,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 1
+    },
+    {
+      "name": "Andrei-Georgian Pătru",
+      "email": "andrei.patru@bolt.eu",
+      "opportunitiesMonth": 7,
+      "closedWon": 3,
+      "closedLost": 0,
+      "activated": 3,
+      "winRate": 1
+    },
+    {
+      "name": "Admin Automation",
+      "email": "pradeep.yadav@bolt.eu",
+      "opportunitiesMonth": 5,
+      "closedWon": 0,
+      "closedLost": 11,
+      "activated": 0,
+      "winRate": 0
+    },
+    {
+      "name": "Ionut-Mădălin Gavrilă",
+      "email": "madalin.gavrila@bolt.eu",
+      "opportunitiesMonth": 4,
+      "closedWon": 1,
+      "closedLost": 0,
+      "activated": 1,
+      "winRate": 1
+    },
+    {
+      "name": "Vlad-Bogdan Popa",
+      "email": "vlad.popa@bolt.eu",
+      "opportunitiesMonth": 2,
+      "closedWon": 0,
+      "closedLost": 0,
+      "activated": 0,
+      "winRate": 0
+    },
+    {
+      "name": "Elena Bianca Pavel",
+      "email": "bianca.pavel@bolt.eu",
+      "opportunitiesMonth": 2,
+      "closedWon": 0,
+      "closedLost": 2,
+      "activated": 0,
+      "winRate": 0
+    }
+  ],
+  "dailyTrend": []
+}
